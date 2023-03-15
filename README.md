@@ -10,8 +10,7 @@ CREATE TABLE `fire_wall` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-<--!use of html Create an HTML page that allows users to post messages to the firewall. The page might have the following code:
--->
+<--! use of html Create an HTML page that allows users to post messages to the firewall. The page might have the following code:-->
 
 <!DOCTYPE html>
 <html>
