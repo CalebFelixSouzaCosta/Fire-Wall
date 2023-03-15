@@ -2,7 +2,7 @@
 
 Create a table in the database that will store messages posted on the firewall. The table can be created with the following structure:
 
-CREATE TABLE `wall_fire` (
+CREATE TABLE `fire_wall` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `user_name` varchar(255) NOT NULL,
   `message` text NOT NULL,
@@ -16,10 +16,10 @@ CREATE TABLE `wall_fire` (
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wall Fire</title>
+	<title>FIRE WALL</title>
 </head>
 <body>
-	<h1>Wall Fire</h1>
+	<h1>Fire Wall</h1>
 	<form action="post_message.php" method="post">
 		<label for="user_name">Your Name:</label>
 		<input type="text" name="user_name" id="user_name"><br>
@@ -65,10 +65,10 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wall Fire</title>
+	<title>Fire Wall</title>
 </head>
 <body>
-	<h1>Wall Fire</h1>
+	<h1>Fire Wall</h1>
 	<?php
 	// Conexão com o banco de dados
 	$host = "localhost";
@@ -94,7 +94,7 @@ mysqli_close($conn);
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Wall Fire</title>
+	<title>Fire Wall</title>
 	<style>
 		body {
 			background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-abstract-painting-blots-background-marble-texture-gold-alcohol-ink-pink-blue-picture-image_1266892.jpg');
@@ -146,7 +146,7 @@ mysqli_close($conn);
 	</style>
 </head>
 <body>
-	<h1>Wall Fire</h1>
+	<h1>Fire Wall</h1>
 	<form action="post_message.php" method="post">
 		<label for="user_name">Your Name:</label>
 		<input type="text" name="user_name" id="user_name">
@@ -238,7 +238,7 @@ mysqli_close($conn);
 </style>
 </head>
 <body>
-	<h1>Wall Fire</h1>
+	<h1>Fire Wall</h1>
 	<form action="post_message.php" method="post">
 		<label for="user_name">Your Name:</label>
 		<input type="text" name="user_name" id="user_name" required><br>
@@ -248,7 +248,7 @@ mysqli_close($conn);
     <!DOCTYPE html>
 <html>
 <head>
-	<title>Wall Fire</title>
+	<title>Fire Wall</title>
 	<style>
 		body {
 			background-color: #6C5B7B;
@@ -282,7 +282,7 @@ mysqli_close($conn);
 	</style>
 </head>
 <body>
-	<h1>Wall Fire</h1>
+	<h1>Fire Wall</h1>
 	<div id="messages">
 		<!-- As mensagens postadas serão exibidas aqui -->
 	</div>
